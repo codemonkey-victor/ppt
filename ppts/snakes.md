@@ -1,7 +1,7 @@
 title: 贪吃蛇大战
 speaker: victor.Dong
 url: https://github.com/codemonkey-victor/snakes
-transition: zoomin
+transition: move
 date: 2015年12月20日
 theme: dark
 
@@ -17,14 +17,14 @@ UX - FED - 董文枭
 2016.6.23
 
 
-[slide data-transition="vertical3d"]
+[slide]
 
 ## 说明
 
 <ul class="desc">
-	<li>我:[<em>桌面应用,管理系统,广告系统,APP,游戏,网站等的开发工作</em>]</li>
-	<li>写这个游戏的目的：[<em>为了学习ReactJS</em>]</li>
-	<li>分享这个游戏的目的：[<em>技术交流,寻找感兴趣的伙伴儿</em>]</li>
+	<li>我:[<em>桌面应用,管理系统,广告系统,APP,游戏,网站等的开发工作</em>]</li> {:&.rollIn}
+	<li>写这个游戏的目的：[<em>为了学习ReactJS</em>]</li> {:&.rollIn}
+	<li>分享这个游戏的目的：[<em>技术交流,寻找感兴趣的伙伴儿</em>]</li> {:&.rollIn}
 </ul>
 <style type="text/css">
 	.desc li{
@@ -43,7 +43,7 @@ UX - FED - 董文枭
 <iframe data-src="http://10.60.237.95:8000/" src="about:blank;" id="demoIframe"></iframe>
 <style type="text/css">
 	#demoIframe{
-		width: 800px;
+		width: 1000px;
 		height: 600px;
 	}
 </style>
@@ -52,7 +52,7 @@ UX - FED - 董文枭
 
 ## 设计思路 - 游戏
 
-  - 场景 、 层 、 精灵(组件)  、 游戏管理员(GM) 、 摄像机(DOM) //{:&.rollIn}
+  - 场景 、 层 、 精灵(组件)  、 游戏管理员(GM) 、 摄像机(DOM) {:&.rollIn}
   - 游戏循环计算 [ checkDead 、 checkEat ... ] 
   - 对象(组件) [ 蛇 、 豆子 、地图 ... ]
   - 其他 [ 说明 、 统计 、 按钮 ... ]
@@ -62,7 +62,7 @@ UX - FED - 董文枭
 
 ## 设计思路 - 技术
 
-  - 界面 : ReactJS  [ Redux ] 
+  - 界面 : ReactJS  [ Redux ] {:&.rollIn}
   - 服务端 : NodeJS
   - 通信 : Socket.io
   - 辅助 : Yeoman、Babel、Underscore、Webpack、Webpack-dev-server、Redux-dev-tool
@@ -73,7 +73,7 @@ UX - FED - 董文枭
 
 ## 然后编码... 发现问题并解决
 
-  - Cache, Redis or System cache
+  - Cache, Redis or System cache {:&.rollIn}
   - 整体重绘与部分重绘
   - 夸组件状态管理
   - Webpack-dev-server 0.0.0.0
@@ -83,7 +83,7 @@ UX - FED - 董文枭
 
 ## 探索
 
-  - ReactJS + Redux + React Router 组合使用
+  - ReactJS + Redux + React Router 组合使用 {:&.rollIn}
   - React 做多人开发的大型项目如何架构
   - React Native 
   - React Canvas 
@@ -106,7 +106,9 @@ UX - FED - 董文枭
   - http://cn.redux.js.org/
   - http://yeoman.io/
   - http://underscorejs.org/
+  - [Leo&Me]https://github.com/Solution-Sage/generator-html5-wechat-activity
 
 
+[slide]
 
-
+# Thanks
