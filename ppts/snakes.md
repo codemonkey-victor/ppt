@@ -6,7 +6,9 @@ date: 2015年12月20日
 theme: dark
 
 
-[slide]
+[slide style="background-image:url('/snakes-img/monitors.jpg'); background-size: contain; background-position: 50%;"]
+
+[slide data-transition="earthquake"]
  
 # 贪吃蛇大战
 
